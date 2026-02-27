@@ -59,3 +59,36 @@
 //     return x*y;
 // }
 // console.log(res);
+// function add(a,b){
+//     console.log(a+b);
+// }
+// add(10,20);
+// arrow function
+// var add2=(a,b)=>{
+//     console.log(a+b);
+// }
+// add2(102,20);
+// for single line parameters
+// var add3=(a,b)=> console.log(a+b);
+// add3(10,20);
+// var person={
+//     name:"John Max",
+//     age:30,
+//     isMarried:true,
+//     address:{
+//         street:"Vijay Nagar",
+//         flat:201
+//     }
+// };
+// console.log(person);
+// for(let x in person){
+//     console.log("person details":+x+":"+person[x])
+// }
+var person2=new Object();
+person2.name="Akshit";
+person2.age=32;
+person2.isMarried=true;
+person2.address={};
+person2.address.street="nagar road";
+person2.address.flat=33;
+console.log(person2)
